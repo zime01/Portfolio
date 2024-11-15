@@ -13,7 +13,7 @@ export default function Projects() {
         My recent{" "}
         <span className="text-[var(--color-text-h)] font-semibold">works</span>
       </p>
-      <div className="mt-32 grid grid-cols-[1fr] md:grid-cols-[1fr,1fr] lg:grid-cols-[1fr,1fr,1fr] gap-5">
+      <div className="mt-32 grid grid-cols-[1fr] md:grid-cols-[1fr,1fr] lg:grid-cols-[1fr,1fr,1fr] gap-5 p-4">
         <div className="p-6 border-[1px] border-[var(--color-text-h)] rounded-lg ">
           <img src={travelList} className="rounded-lg" />
           <h1 className="mt-6 mb-2 text-center text-[var(--color-text-primary)] text-base">

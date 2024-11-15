@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="bg-[--color-footer]">
-      <div className="my-0 mx-auto max-w-[62.5rem] flex justify-between  py-4">
+      <div className="my-0 mx-auto max-w-[62.5rem] flex justify-between  py-4 px-4">
         <p className="text-[var(--color-text-primary)] hidden sm:block text-sm lg:text-base">
           Developed by Hazim Zimić
         </p>

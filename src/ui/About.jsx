@@ -2,7 +2,7 @@ import coding from "../assets/coding.webp";
 
 export default function About() {
   return (
-    <div className="my-0 mx-auto max-w-[62.5rem] flex  items-start sm:items-center justify-between h-svh sm:pt-10 ">
+    <div className="my-0 mx-auto max-w-[62.5rem] flex  items-start  justify-between h-svh sm:pt-10 px-5 ">
       <div className="text-[0.5]">
         <p className="text-[var(--color-text-primary)] text-sm lg:text-lg mb-3">
           Hello, I'm Hazim, a front-end developer with a strong passion for

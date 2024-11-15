@@ -7,7 +7,7 @@ import { BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter } from "react-icons/bi";
 export default function Home() {
   return (
     <div>
-      <div className="my-0 mx-auto max-w-[62.5rem] flex items-center  justify-between mt-12 pb-16 h-[75vh]  border-b-2 border-[var(--color-btn-primary)] ">
+      <div className="my-0 mx-auto max-w-[62.5rem] flex items-center  justify-between mt-12 pb-16 h-[75vh]  border-b-2 border-[var(--color-btn-primary)] p-4 ">
         <div className="">
           <h1 className="text-[var(--color-text-primary)] md:text-xl lg:text-3xl mb-3">
             Hello:)
@@ -26,8 +26,8 @@ export default function Home() {
           <img src={codingImg} alt="picture" />
         </div>
       </div>
-      <div className="my-0 mx-auto max-w-[62.5rem] flex items-center justify-between gap-20 pt-16 mt-16 mb-32">
-        <div className="">
+      <div className="my-0 mx-auto max-w-[62.5rem] flex flex-col sm:flex-row items-center justify-between gap-20 pt-16 mt-16 mb-32 p-4">
+        <div className="order-2">
           <h1 className="uppercase  text-[var(--color-text-primary)] md:text-xl lg:text-3xl mb-10">
             let me{" "}
             <span className="text-[var(--color-text-h)] font-semibold">
@@ -45,7 +45,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="w-[60%]">
+        <div className="order-1 sm:order-2 w-[60%]">
           <img src={ja} className="rounded-[50%]     " />
         </div>
       </div>
