@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="bg-[--color-footer]">
-      <div className="my-0 mx-auto w-[62.5rem] flex justify-between  py-4">
-        <p className="text-[var(--color-text-primary)]">
+      <div className="my-0 mx-auto max-w-[62.5rem] flex justify-between  py-4">
+        <p className="text-[var(--color-text-primary)] text-sm lg:text-base">
           Developed by Hazim Zimić
         </p>
-        <p className="text-[var(--color-text-primary)]">
+        <p className="text-[var(--color-text-primary)] text-sm lg:text-base">
           Copyright &copy; Hazim Zimić 2024
         </p>
         <div className="flex gap-2">
