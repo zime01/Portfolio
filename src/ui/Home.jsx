@@ -46,7 +46,7 @@ export default function Home() {
         </div>
 
         <div className="order-1 sm:order-2 w-[60%]">
-          <img src={ja} className="rounded-[50%]     " />
+          <img src={ja} className="rounded-[100%]     " />
         </div>
       </div>
       <div className="text-center">
