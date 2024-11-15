@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .pic {
+  background-image: url(https://img.freepik.com/free-vector/night-time-sky-background-with-glittering-stars_1048-19664.jpg);
+} */
+/* background-image: linear-gradient(var(--color-bg), var(--color-bg)), 
+
+background-image: linear-gradient(
+      rgba(10, 25, 49, 0.95),
+      rgba(10, 25, 49, 0.95)
+
+      rgba(var(--color-bg), 0.95),
+      rgba(var(--color-bg), 0.95)
+    ),*/
+.pic {
+  background-image: linear-gradient(
+      rgba(var(--color-bg), var(--pic-opacity)),
+      rgba(var(--color-bg), var(--pic-opacity))
+    ),
+    url(./assets/bg.avif);
+  background-size: cover;
+}
