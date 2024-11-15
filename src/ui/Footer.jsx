@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="bg-[--color-footer]">
       <div className="my-0 mx-auto max-w-[62.5rem] flex justify-between  py-4">
-        <p className="text-[var(--color-text-primary)] text-sm lg:text-base">
+        <p className="text-[var(--color-text-primary)] hidden sm:block text-sm lg:text-base">
           Developed by Hazim Zimić
         </p>
         <p className="text-[var(--color-text-primary)] text-sm lg:text-base">

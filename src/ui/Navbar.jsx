@@ -13,11 +13,11 @@ export default function Navbar() {
   //const { toggleDarkMode } = useDarkMode();
   return (
     <div className="flex items-center justify-center md:justify-between lg:justify-between mb-12 max-w-[62.5rem] my-0 mx-auto">
-      <p className="text-sm md:text-base lg:text-xl text-[var(--color-text-primary)]">
+      <p className="hidden sm:block text-sm md:text-base lg:text-xl text-[var(--color-text-primary)]">
         @zime_01
       </p>
       <ul className="flex items-center md:justify-center  ">
-        <li className="text-[var(--color-text-primary)] font-semibold text-sm md:text-base  lg:text-xl m-5 p-2 hover:text-[var(--color-text-h)] hover:border-b-2 hover:border-[var(--color-text-h)] transition-all duration-100 border-b-2 border-transparent">
+        <li className="text-[var(--color-text-primary)] font-semibold text-sm md:text-base  lg:text-xl m-2 sm:m-5 p-2 hover:text-[var(--color-text-h)] hover:border-b-2 hover:border-[var(--color-text-h)] transition-all duration-100 border-b-2 border-transparent">
           <NavLink to="/" className="flex items-center justify-center gap-1 ">
             <HiHome className="inline" />
             Home

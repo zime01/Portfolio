@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
-    <div className="my-0 mx-auto w-[62.5rem] mt-20 mb-10">
+    <div className="my-0 mx-auto max-w-[62.5rem] mt-20 mb-10">
       <p className="text-[var(--color-text-primary)] text-3xl text-center ">
         My recent{" "}
         <span className="text-[var(--color-text-h)] font-semibold">works</span>
       </p>
-      <div className="mt-32 grid grid-cols-[1fr,1fr,1fr] gap-5">
+      <div className="mt-32 grid grid-cols-[1fr] md:grid-cols-[1fr,1fr] lg:grid-cols-[1fr,1fr,1fr] gap-5">
         <div className="p-6 border-[1px] border-[var(--color-text-h)] rounded-lg ">
           <img src={travelList} className="rounded-lg" />
           <h1 className="mt-6 mb-2 text-center text-[var(--color-text-primary)] text-base">
@@ -96,7 +96,7 @@ export default function Projects() {
             </Link>
           </div>
         </div>
-        <div className="p-6 border-[1px] border-[var(--color-text-h)] rounded-lg col-[2/3] ">
+        <div className="p-6 border-[1px] border-[var(--color-text-h)] rounded-lg lg:col-[2/3] ">
           <img src={wildOasis} className="rounded-lg" />
           <h1 className="mt-6 mb-2 text-center text-[var(--color-text-primary)] text-base">
             The wild oasis

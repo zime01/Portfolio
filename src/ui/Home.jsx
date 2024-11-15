@@ -60,16 +60,16 @@ export default function Home() {
         </p>
         <div className="flex justify-center gap-4 max-w-[62.5rem] my-0 mx-auto pb-20">
           <Link to="https://github.com/zime01">
-            <IoLogoGithub className="w-10 h-10 text-[var(--color-btn-primary)] " />
+            <IoLogoGithub className="w-8 h-8 lg:w-10 lg:h-10 text-[var(--color-btn-primary)] " />
           </Link>
           <Link to="https://www.instagram.com/zime_01/">
-            <BiLogoInstagram className="w-10 h-10 text-[var(--color-btn-primary)]" />
+            <BiLogoInstagram className="w-8 h-8 lg:w-10 lg:h-10 text-[var(--color-btn-primary)]" />
           </Link>
           <Link to="https://x.com/zime_01">
-            <BiLogoTwitter className="w-10 h-10 text-[var(--color-btn-primary)]" />
+            <BiLogoTwitter className="w-8 h-8 lg:w-10 lg:h-10 text-[var(--color-btn-primary)]" />
           </Link>
           <Link to="https://www.linkedin.com/in/hazim-zimic-9204751a2/">
-            <BiLogoLinkedin className="w-10 h-10 text-[var(--color-btn-primary)]" />
+            <BiLogoLinkedin className="w-8 h-8 lg:w-10 lg:h-10 text-[var(--color-btn-primary)]" />
           </Link>
         </div>
       </div>
